@@ -1,0 +1,42 @@
+/* Style the header */
+.userHead {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+/* Style the navigation bar */
+.userHead nav {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Style the container */
+.userHead .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the menu */
+.userHead .menu {
+    display: flex;
+}
+
+/* Style the menu bar */
+.userHead .menuBar {
+    text-align: center;
+}
+
+/* Style the link */
+.userHead a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.5s ease;
+}
+
+/* Change the color of the link when you hover over it */
+.userHead a:hover {
+    background-color: #19561c;
+}
