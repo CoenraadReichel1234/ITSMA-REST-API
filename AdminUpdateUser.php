@@ -76,6 +76,7 @@ table td {
 <?php
 include '../Frontend/AdminHeader.php';
 include '../Backend/UpdateUserData_Function.php';
+include '../Backend/FindUser.php';
 
 $userInfo = null;
 if($_SERVER["REQUEST_METHOD"] == "POST"){
